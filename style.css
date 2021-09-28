@@ -202,7 +202,7 @@ h4 {
 }
 
 #touch {
-    background-color: blue;
+    background-color: rgba(84, 230, 84, 0.39);
     padding: 10px;
     width: 120px;
     color: white;
@@ -298,5 +298,41 @@ footer .social {
 }
     
 
+@media (max-width: 615px) {
+    .intro h4::after {
+        content: ' ';
+        display: block;
+        width: 250px;
+        height: 1px;
+        background-color: rgb(62, 95, 185);
+        position: absolute;
+        left: 30%;
+        margin-top: 25px;
+    }
+}
 
+@media (max-width: 615px) {
+    .intro h4::after {
+        content: ' ';
+        display: block;
+        width: 250px;
+        height: 1px;
+        background-color: rgb(62, 95, 185);
+        position: absolute;
+        left: 25%;
+        margin-top: 25px;
+    }
+}
 
+@media (max-width: 385px) {
+    .intro h4::after {
+        content: ' ';
+        display: block;
+        width: 250px;
+        height: 1px;
+        background-color: rgb(62, 95, 185);
+        position: absolute;
+        left: 17%;
+        margin-top: 25px;
+    }
+}
