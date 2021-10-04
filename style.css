@@ -33,7 +33,10 @@ body {
     margin: 0 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 2px;
+}
 
+.nav-link:hover {
+    background-color: #555;
 }
 
 .container-header {
@@ -211,6 +214,14 @@ h4 {
     margin-bottom: 30px;
 }
 
+.dropdown-menu {
+    background-color: #333;
+}
+
+.dropdown-menu a {
+    color: white;
+}
+
 #pricing {
     background-color: rgba(245, 245, 220, 0);
     padding: 10px;
@@ -221,7 +232,7 @@ h4 {
     margin-left: 45px;
 } 
 
-.discount {
+#discount {
     background-image: url(https://i.ytimg.com/vi/PX6WasI0FT0/maxresdefault.jpg);
     background-repeat: no-repeat;
     background-position: center;
