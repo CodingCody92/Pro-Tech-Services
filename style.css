@@ -160,7 +160,7 @@ h4 {
     color: rgba(0, 0, 0, 0.562);  
 }
 
-.intro h4::after {
+/* .intro h4::after {
     content: ' ';
     display: block;
     width: 250px;
@@ -169,7 +169,7 @@ h4 {
     position: absolute;
     left: 40%;
     margin-top: 25px;
-}
+} */
 
 .img-row {
     display: flex;
@@ -261,7 +261,7 @@ footer {
     background-color: rgb(0, 0, 32);
     max-width: 100%;
     max-height: 100%;
-    padding: 3%;
+    padding: 1%;
 }
 
 footer .social {
@@ -305,6 +305,12 @@ footer .social {
     .img-row {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 440px) {
+    #discount p {
+        font-size: .8em;
     }
 }
     
